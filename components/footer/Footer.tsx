@@ -15,7 +15,7 @@ const Footer = () => {
     <footer className="w-full py-14 border-t bg-gray-50/50">
       <div className="mx-auto max-w-7xl px-4 sm:px-8">
         <div className="max-w-3xl mx-auto">
-          <div className="flex gap-x-10 justify-center items-center mb-14">
+          <div className="flex gap-x-5 justify-center items-center mb-5">
             {icons.map((icon) => (
               <Link
                 key={icon.props.key}
@@ -26,7 +26,7 @@ const Footer = () => {
               </Link>
             ))}
           </div>
-          <span className="text-lg text-gray-800 text-center block">
+          <span className=" text-gray-800 text-center block">
             ©2024 <b>The Musaafir</b> | All rights reserved.
           </span>
         </div>

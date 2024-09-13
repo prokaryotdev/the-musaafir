@@ -78,12 +78,12 @@ const Testimonial = () => {
 
                 </div>
               </h4>
-              <p className=" font-normal text-gray-600">
+              <p className="font-normal text-gray-600">
                 {person.review}
               </p>
 
               <div
-                className="  mt-5 "
+                className=" mt-5 "
               >
             
                  <Image src={Stars} alt="" className="w-[40%]" />
