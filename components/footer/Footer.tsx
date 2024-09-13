@@ -5,10 +5,10 @@ import Link from 'next/link';
 
 const Footer = () => {
   const icons = [
-    <Image key="x-icon" src={X} alt="X icon" width={24} height={24} className='invert size-4 sm:size-6' />, 
-    <Instagram key="instagram-icon" className='size-4 sm:size-6' />,
-    <Linkedin key="linkedin-icon" className='size-4 sm:size-6' />,
-    <Youtube key="youtube-icon" className='size-4 sm:size-6' />,
+    <Image key="x-icon" src={X} alt="X icon" width={24} height={24} className='invert size-5 sm:size-6' />, 
+    <Instagram key="instagram-icon" className='size-5 sm:size-6' />,
+    <Linkedin key="linkedin-icon" className='size-5 sm:size-6' />,
+    <Youtube key="youtube-icon" className='size-5 sm:size-6' />,
   ];
 
   return (
