@@ -39,7 +39,7 @@ import {
         <Accordion type="single" collapsible className="w-full">
           {faqs.map(({ id, question, answer }) => (
             <AccordionItem key={id} value={id}>
-              <AccordionTrigger className="text-lg text-left font-medium hover:no-underline hover:bg-gray-50/50 text-gray-950">{question}</AccordionTrigger>
+              <AccordionTrigger className="sm:text-lg text-left font-medium hover:no-underline hover:bg-gray-50/50 text-gray-950">{question}</AccordionTrigger>
               <AccordionContent className="text-base text-gray-600 border-t pt-4 pr-[5%]">{answer}</AccordionContent>
             </AccordionItem>
           ))}

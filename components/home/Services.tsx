@@ -29,7 +29,7 @@ const services = [
   },
   {
     title: "Ongoing Support",
-    description: "Even after you move, we&#39;re here to help with any questions or issues that come up.",
+    description: "Even after you move, we're here to help with any questions or issues that come up.",
     emoji: "🔄"
   }
 ];
