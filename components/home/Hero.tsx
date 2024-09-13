@@ -35,18 +35,11 @@ const Hero = () => {
 
       <div className="border-2 border-white/50 p-4 bg-black rounded-xl shadow-xl shadow-white/10">
 
-
-      {/* <Image
-      src={Img}
-      alt=""
-      className="opacity-[.7]"
-      /> */}
-
 <iframe 
     className="aspect-video w-full"
     src="https://www.youtube.com/embed/7BGvaIzuvvg?si=6t-wBVcWx2rhxMRv" title="YouTube video player" 
-     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+     referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
       </div>
 
       </div>
