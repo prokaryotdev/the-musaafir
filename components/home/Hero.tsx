@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { ChevronsRight } from "lucide-react";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -17,7 +18,7 @@ const Hero = () => {
           <b>Muslim-majority countries</b>. Begin your journey now!
         </p>
 
-        <div className="flex items-center justify-center mb-12">
+        <Link href={'https://calendly.com/abubakr2/30-minute-consultation?month=2024-09'} target="_blank" className="flex items-center justify-center mb-12">
         <div className="overflow-hidden rounded-full border border-[#f6db4b]/80 bg-[#f6db4b]/90 p-0.5 shadow-lg shadow-[#f6db4b]/20">
             <button
               className={cn(
@@ -28,7 +29,7 @@ const Hero = () => {
               <ChevronsRight className="text-[#221d1e] size-5"/>
             </button>
           </div>
-        </div>
+        </Link>
 
         {/*  */}
       

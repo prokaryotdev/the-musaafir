@@ -5,10 +5,10 @@ import Link from 'next/link';
 
 const Footer = () => {
   const icons = [
-    <Image key="x-icon" src={X} alt="X icon" width={24} height={24} className='invert' />, 
-    <Instagram key="instagram-icon" />,
-    <Linkedin key="linkedin-icon" />,
-    <Youtube key="youtube-icon" />,
+    <Image key="x-icon" src={X} alt="X icon" width={24} height={24} className='invert size-4 sm:size-6' />, 
+    <Instagram key="instagram-icon" className='size-4 sm:size-6' />,
+    <Linkedin key="linkedin-icon" className='size-4 sm:size-6' />,
+    <Youtube key="youtube-icon" className='size-4 sm:size-6' />,
   ];
 
   return (
@@ -27,7 +27,7 @@ const Footer = () => {
             ))}
           </div>
           <span className=" text-gray-800 text-center block">
-            ©2024 <b>The Musaafir</b> | All rights reserved.
+            ©2024 <b>The Musaafir</b> <span className='hidden sm:inline-block'>|</span>  <br className='sm:hidden' /> All rights reserved.
           </span>
         </div>
       </div>
