@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   title: "Free Website For Your Business",
     description: "Expert guidance and support for Muslims seeking Hijrah and relocation to Muslim-majority countries. Get personalized consultation, visa assistance, relocation planning, cultural orientation, and community connections.",
     url: "https://the-musaafir.vercel.app/",
-    images: "./og.png",
+    images: "./img.png",
   },
 };
 
