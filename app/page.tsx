@@ -12,7 +12,6 @@ const Home = () => {
       <Testimonial/>
       <Cta/>
       <Faq/>
-    
     </div>
   );
 };

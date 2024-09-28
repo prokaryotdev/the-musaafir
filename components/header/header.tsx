@@ -35,7 +35,7 @@ const Header = () => {
           ))}
         </div>
 
-        <Link href={'https://calendly.com/abubakr2/30-minute-consultation?month=2024-09'} target="_blank" className="overflow-hidden rounded-full border border-[#f6db4b]/80 bg-[#f6db4b]/90 p-0.5 shadow-lg shadow-[#f6db4b]/20">
+        <Link href={''} className="overflow-hidden rounded-full border border-[#f6db4b]/80 bg-[#f6db4b]/90 p-0.5 shadow-lg shadow-[#f6db4b]/20">
         <button
               className={cn(
                 "h-10 w-full flex items-center gap-1 rounded-full bg-[#f6db4b] px-8 font-semibold text-[#221d1e] backdrop-blur-xl",

@@ -40,7 +40,7 @@ import {
           {faqs.map(({ id, question, answer }) => (
             <AccordionItem key={id} value={id}>
               <AccordionTrigger className="text-base sm:text-lg text-left font-medium hover:no-underline hover:bg-gray-50/50 text-gray-950">{question}</AccordionTrigger>
-              <AccordionContent className="text-base text-gray-600 border-t pt-4 pr-[5%]">{answer}</AccordionContent>
+              <AccordionContent className="text-base text-gray-600 border-t pt-4 pr-[5%] lg:text-lg">{answer}</AccordionContent>
             </AccordionItem>
           ))}
         </Accordion>

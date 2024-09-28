@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { ChevronsRight } from "lucide-react";
+import { ChevronsRight, Play } from "lucide-react";
 import Link from "next/link";
 
 const Hero = () => {
@@ -7,18 +7,18 @@ const Hero = () => {
     <div className="bg-[#221d1e] pb-2 sm:pb-8 pt-20 sm:pt-24 text-white border-b mb-10 sm:mb-20">
       <div className="mx-auto w-full max-w-[900px] px-4 py-12 sm:p-12">
         <h1 className="mb-6 text-center text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight">
-          I Help Muslims Living In The West{" "}
+          We Help Muslims Living In The West{" "}
           <span className="underline decoration-[#5a67f4]">Make Hijrah</span> To
           Muslim Countries
         </h1>
 
         <p className="mb-12 px-4 sm:px-12 text-center sm:text-xl font-light leading-relaxed">
-          Ready for <b>Hijrah</b>? We offer <b>expert support</b> to help{" "}
+          We offer <b>expert support</b> to help{" "}
           <b>Muslims in the West</b> transition smoothly to{" "}
           <b>Muslim-majority countries</b>. Begin your journey now!
         </p>
 
-        <Link href={'https://calendly.com/abubakr2/30-minute-consultation?month=2024-09'} target="_blank" className="flex items-center justify-center mb-12">
+        <Link href={''} className="flex items-center justify-center mb-12">
         <div className="overflow-hidden rounded-full border border-[#f6db4b]/80 bg-[#f6db4b]/90 p-0.5 shadow-lg shadow-[#f6db4b]/20">
             <button
               className={cn(
@@ -34,13 +34,21 @@ const Hero = () => {
         {/*  */}
       
 
-      <div className="border-2 border-white/50 p-4 bg-black rounded-xl shadow-xl shadow-white/10">
+      <div className="relative border-2 border-white/50 p-4 bg-black rounded-xl shadow-xl shadow-white/10">
 
-<iframe 
-    className="aspect-video w-full"
-    src="https://www.youtube.com/embed/7BGvaIzuvvg?si=6t-wBVcWx2rhxMRv" title="YouTube video player" 
-     frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-     referrerPolicy="strict-origin-when-cross-origin" allowFullScreen loading="lazy"></iframe>
+      <div className="aspect-video"></div>
+
+      <div className="absolute mx-auto top-0 bottom-0 left-0 right-0  flex items-center justify-center">
+
+      <div className="size-[50px] cursor-pointer rounded-full flex items-center justify-center">
+      <Play className="size-[40px]"/>
+
+      </div>
+
+
+      </div>
+       
+
       </div>
 
       </div>

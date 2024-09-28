@@ -27,7 +27,7 @@ const Footer = () => {
             ))}
           </div>
           <span className=" text-gray-800 text-center block">
-            ©2024 <b>The Musaafir</b> <span className='hidden sm:inline-block'>|</span>  <br className='sm:hidden' /> All rights reserved.
+            ©2024 <b>Company Name</b> <span className='hidden sm:inline-block'>|</span>  <br className='sm:hidden' /> All rights reserved.
           </span>
         </div>
       </div>
