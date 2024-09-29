@@ -44,10 +44,10 @@ const Services = () => {
           </span>
           
           <h2 className=" text-3xl sm:text-5xl sm:text-center font-bold text-gray-900 py-4">
-          Start Your Hijrah Journey Today
+          Start Your Travel Journey Today
           </h2>
           <p className="text-lg font-normal text-gray-600 max-w-md md:max-w-2xl mx-auto">
-            Ready to start your Hijrah? Here&#39;s what we offer to support your journey
+            Ready to start your Travel? Here&#39;s what we offer to support your journey
           </p>
         </div>
         <div className="flex justify-center  gap-5 flex-wrap sm:flex-row  sm:gap-8">

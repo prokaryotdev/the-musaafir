@@ -6,17 +6,19 @@ const Hero = () => {
   return (
     <div className="bg-[#221d1e] pb-2 sm:pb-8 pt-20 sm:pt-24 text-white border-b mb-10 sm:mb-20">
       <div className="mx-auto w-full max-w-[900px] px-4 py-12 sm:p-12">
-        <h1 className="mb-6 text-center text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight">
-          We Help Muslims Living In The West{" "}
-          <span className="underline decoration-[#5a67f4]">Make Hijrah</span> To
-          Muslim Countries
-        </h1>
+      <h1 className="mb-6 text-center text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight">
+    We Help Travelers Living in Urban Areas{" "}
+    <span className="underline decoration-[#5a67f4]">Explore </span> New Destinations
+</h1>
 
-        <p className="mb-12 px-4 sm:px-12 text-center sm:text-xl font-light leading-relaxed">
-          We offer <b>expert support</b> to help{" "}
-          <b>Muslims in the West</b> transition smoothly to{" "}
-          <b>Muslim-majority countries</b>. Begin your journey now!
-        </p>
+
+
+<p className="mb-12 px-4 sm:px-12 text-center sm:text-xl font-light leading-relaxed">
+    We provide <b>expert guidance</b> to help{" "}
+    <b>travelers in urban areas</b> transition seamlessly to{" "}
+    <b>new destinations</b>. Start your journey today!
+</p>
+
 
         <Link href={''} className="flex items-center justify-center mb-12">
         <div className="overflow-hidden rounded-full border border-[#f6db4b]/80 bg-[#f6db4b]/90 p-0.5 shadow-lg shadow-[#f6db4b]/20">

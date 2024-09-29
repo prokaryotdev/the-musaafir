@@ -8,7 +8,7 @@ const Cta = () => {
     <div className="bg-[#221d1e] py-8 text-white border-b mb-10 sm:mb-20">
       <div className="mx-auto w-full max-w-[900px] px-6 py-8 sm:p-12">
         <h1 className="space mb-7 text-center text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
-        Start Your Hijrah Journey with Confidence
+        Start Your Travel Journey <br className="hidden lg:block" /> with Confidence
         </h1>
 
         <Link href={''} className="flex items-center justify-center mb-12">
