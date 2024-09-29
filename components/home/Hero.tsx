@@ -36,15 +36,17 @@ const Hero = () => {
         {/*  */}
       
 
-      <div className="relative border-2 border-white/50 p-4 bg-black rounded-xl shadow-xl shadow-white/10">
+      <div className="relative border-2 border-white/30 p-4 bg-black/50 rounded-xl shadow-xl shadow-white/10">
 
       <div className="aspect-video"></div>
 
       <div className="absolute mx-auto top-0 bottom-0 left-0 right-0  flex items-center justify-center">
 
-      <div className="size-[50px] cursor-pointer rounded-full flex items-center justify-center">
-      <Play className="size-[40px]"/>
+        <div className=" size-[70px] lg:size-[110px] cursor-pointer bg-white/50 backdrop-blur-md rounded-full flex items-center justify-center">
 
+      <div className=" size-[60px] lg:size-[100px] bg-white rounded-full flex items-center justify-center">
+      <Play className="size-[30px] lg:size-[40px] fill-black/90 text-black/90"/>
+      </div>
       </div>
 
 
