@@ -15,11 +15,11 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Free Website For Your Business",
+  title: "Travel Website For Your Business",
   description: "Expert guidance and support for Muslims seeking Hijrah and relocation to Muslim-majority countries. Get personalized consultation, visa assistance, relocation planning, cultural orientation, and community connections.",
   keywords: "Hijrah, Muslim relocation, expert support, visa assistance, cultural orientation, Muslim-majority countries, relocation planning, community connections",
   openGraph: {
-  title: "Free Website For Your Business",
+  title: "Travel Website For Your Business",
     description: "Expert guidance and support for Muslims seeking Hijrah and relocation to Muslim-majority countries. Get personalized consultation, visa assistance, relocation planning, cultural orientation, and community connections.",
     url: "https://the-musaafir.vercel.app/",
     images: "./img.png",
