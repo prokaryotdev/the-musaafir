@@ -3,39 +3,40 @@ import Stars from "../../public/star.webp"
 
 
 const testimonials = [
-    {
-      name: "Amina S.",
-      review: "The guidance I received was invaluable. From choosing the right country to settling in, everything was handled with care and professionalism. My Hijrah experience has been seamless, and I couldn’t be happier with the support I received!"
-    },
-    {
-      name: "Omar K.",
-      review: "I was overwhelmed with the paperwork and moving logistics, but the team made it easy. Their step-by-step assistance and cultural insights made all the difference. I’m now comfortably settled and thriving in my new home."
-    },
-    {
-      name: "Fatima R.",
-      review: "The personal touch and expert advice provided were exceptional. I felt supported throughout the entire process, from visa applications to finding a community. I highly recommend their services to anyone considering Hijrah."
-    },
-    {
-      name: "Hassan M.",
-      review: "From the initial consultation to post-move support, the service was outstanding. They addressed every concern I had and helped me integrate smoothly into my new environment. I’m grateful for their dedication and expertise."
-    },
-    {
-      name: "Leila J.",
-      review: "Moving to a new country can be daunting, but the team’s thorough and compassionate approach made it much easier. Their help with relocation planning and cultural orientation was crucial for a successful transition."
-    },
-    {
-      name: "Zainab T.",
-      review: "The support I received was beyond my expectations. They helped me navigate complex legal requirements and connected me with local resources, making my transition smooth and stress-free."
-    },
-    {
-      name: "Rami B.",
-      review: "I appreciated the personalized approach and ongoing support throughout my move. Their expertise in handling all aspects of relocation ensured that I felt confident and well-prepared."
-    },
-    {
-      name: "Maya L.",
-      review: "From start to finish, the service was exceptional. Their attention to detail and commitment to making my move as seamless as possible truly stood out. I felt supported every step of the way."
-    }
-  ];
+  {
+    name: "Amina S.",
+    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet."
+  },
+  {
+    name: "Omar K.",
+    review: "Suspendisse potenti. In faucibus orci luctus et ultrices posuere cubilia curae; Donec velit neque, egestas eget ipsum et, lacinia bibendum nisl. Curabitur non nulla sit amet nisl tempus convallis."
+  },
+  {
+    name: "Fatima R.",
+    review: "Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Curabitur aliquet quam id dui posuere blandit."
+  },
+  {
+    name: "Hassan M.",
+    review: "Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
+  },
+  {
+    name: "Leila J.",
+    review: "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor volutpat."
+  },
+  {
+    name: "Zainab T.",
+    review: "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat."
+  },
+  {
+    name: "Rami B.",
+    review: "Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Proin eget tortor risus."
+  },
+  {
+    name: "Maya L.",
+    review: "Pellentesque in ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla quis lorem ut libero malesuada feugiat."
+  }
+];
+
   
   
 
